@@ -2,9 +2,10 @@
 <title>Mahnoor Khan
 </title>
 <head>
-<meta http-equiv = "refresh" content = "12; url = https://mah-noor-khan.github.io/noor/" />
+<meta http-equiv = "refresh" content = "25; url = https://mah-noor-khan.github.io/" />
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="shortcut icon" href="headericon.ico" />
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 <script>
 var i = 0;
 var txt = 'Hello, This is Mahnoor Khan.';
@@ -46,19 +47,19 @@ body {
   max-width: 100%; 
   min-width: 100%; 
   min-height: 100%;
+  max-height: 100%;
 }
 
-#noorintro {
-  position: fixed;
-  right: 0;
-  bottom: 0;
-  max-width: 0%;  
-  max-height: 0%;
+#intro {
+color: red;
+font-size: 24px;
+font-weight: bold;
+text-shadow: 2pt 2pt 2pt white;
 }
 .button{
 font-size: 20px;
 border-radius: 6px;
-border: 6px solid #4CAF50;
+border: 6px solid red;
 
 transition-duration: 0.4s;
 
@@ -70,16 +71,11 @@ box-shadow: 0 8px 16px 0 white, 0 4px 15px 0 white;
 </style>
 
 <body onload="typeWriter()">
-<iframe src="silence.mp3" allow="autoplay" id="audio" style="display:none"></iframe>
 
-<audio id="player" autoplay loop>
-    <source src="noor.mp3" type="audio/mp3">
-</audio>
 
 
 <video muted loop autoplay id="noorintro">
-  <source src="noor480.mp4" type="video/mp4">
-  Your browser does not support HTML5 video.
+  <source src="noor.mp4" type="video/mp4">
 </video>
 
 
@@ -91,7 +87,7 @@ box-shadow: 0 8px 16px 0 white, 0 4px 15px 0 white;
 
 <script>
 function redirecttome() {
-  location.replace("https://mah-noor-khan.github.io/noor/")
+  location.replace("https://mah-noor-khan.github.io/")
 }
 </script>
 
