@@ -3,7 +3,6 @@
 </title>
 <head>
 <meta name="theme-color" content="black" />
-<meta http-equiv = "refresh" content = "25; url = https://mah-noor-khan.github.io/" />
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="shortcut icon" href="headericon.ico" />
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
@@ -71,7 +70,7 @@ box-shadow: 0 8px 16px 0 white, 0 4px 15px 0 white;
 }
 </style>
 
-<body onload="typeWriter()">
+<body onload="typeWriter(); loader()">
 
 
 
@@ -85,6 +84,11 @@ box-shadow: 0 8px 16px 0 white, 0 4px 15px 0 white;
 <p id="intro"></p>
 
 <button class="button" onclick="redirecttome()">Check My Profile</button>
+<script>
+function loader(){
+setTimeout(function loaded() {location.replace("https://mah-noor-khan.github.io/") }, 15000);
+}
+</script>
 
 <script>
 function redirecttome() {
